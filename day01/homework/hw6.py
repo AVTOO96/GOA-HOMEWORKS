@@ -1,0 +1,1 @@
+#dge viswavlet type funqcia romeluic gvanaxebs monecemta tips aseve matematikuri operatorebi, viswavlet string integer float
