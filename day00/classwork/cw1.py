@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 name = "avto"
 lastname = "kapanadze"
 
@@ -12,6 +12,6 @@ print(type(year))
 print(type(floattt))
 
 
-=======
+
 #no classwork
->>>>>>> 51bbe290e60e99a2256eddb84d4c2f1176f5f97f
+
