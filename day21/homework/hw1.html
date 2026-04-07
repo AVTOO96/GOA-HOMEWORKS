@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tables</title>
+</head>
+<body>
+   
+  <style>
+    table {
+      border-collapse: collapse;
+      margin: 20px 0;
+      width: 80%;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+<h2>1. Basic Table</h2>
+<table>
+  <tr>
+    <th>Level1</th>
+    <th>Level2</th>
+    <th>Level3</th>
+    <th>Info</th>
+    <th>Name</th>
+  </tr>
+
+  <tr>
+    <td rowspan="5">System</td>
+    <td rowspan="3">System Apps</td>
+    <td>SystemEnv</td>
+    <td>App Test</td>
+    <td>foo</td>
+  </tr>
+  <tr>
+    <td>SystemEnv</td>
+    <td>App Memory</td>
+    <td>foo</td>
+  </tr>
+  <tr>
+    <td>SystemEnv2</td>
+    <td>App Test</td>
+    <td>bar</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">System Memory</td>
+    <td>Memory Test</td>
+    <td>Memory Func</td>
+    <td>foo</td>
+  </tr>
+  <tr>
+    <td>Apes Test</td>
+    <td>---</td>
+    <td>foo</td>
+  </tr>
+</table>
+
+<h2>2. Seminar Table</h2>
+<table>
+  <tr>
+    <th rowspan="2">Day</th>
+    <th colspan="2">Schedule</th>
+    <th rowspan="2">Topic</th>
+  </tr>
+  <tr>
+    <th>Begin</th>
+    <th>End</th>
+  </tr>
+
+  <tr>
+    <td>Monday</td>
+    <td>8:00</td>
+    <td>5:00</td>
+    <td>Intro to XML</td>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Tuesday</td>
+    <td>8:00</td>
+    <td>11:00</td>
+    <td>XPath</td>
+  </tr>
+  <tr>
+    <td>11:00</td>
+    <td>2:00</td>
+    <td>XSL</td>
+  </tr>
+</table>
+
+<h2>3. Student Table</h2>
+<table>
+  <tr>
+    <th rowspan="2">Heading</th>
+    <th>Students</th>
+    <th colspan="3">Details</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Name</th>
+    <th>Department</th>
+    <th>Roll</th>
+  </tr>
+
+  <tr>
+    <td rowspan="4">Student List</td>
+    <td>1</td>
+    <td>Victor</td>
+    <td>Computer</td>
+    <td>12345</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>Williams</td>
+    <td>Electronics</td>
+    <td>23456</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>Harry</td>
+    <td>Electrical</td>
+    <td>34567</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>Rick</td>
+    <td>Civil</td>
+    <td>45678</td>
+  </tr>
+</table>
+
+<h2>4. Simple Layout Table</h2>
+<table>
+  <tr>
+    <th>Column 1</th>
+    <th>Column 2</th>
+    <th>Column 3</th>
+  </tr>
+
+  <tr>
+    <td rowspan="2">Row 1 Cell 1</td>
+    <td>Row 1 Cell 2</td>
+    <td>Row 1 Cell 3</td>
+  </tr>
+
+  <tr>
+    <td>Row 2 Cell 2</td>
+    <td>Row 2 Cell 3</td>
+  </tr>
+
+  <tr>
+    <td colspan="3">Row 3 Cell 1</td>
+  </tr>
+</table>
+
+</body>
+</html>
