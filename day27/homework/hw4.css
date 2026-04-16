@@ -1,0 +1,27 @@
+body{
+  background:#111;
+  font-family: Arial;
+}
+
+.table4{
+  width:80%;
+  margin:40px auto;
+  border-radius:15px;
+  overflow:hidden;
+}
+
+.table4 th{
+  background:#4caf50;
+  color:white;
+  padding:12px;
+}
+
+.table4 td{
+  background:#f9f9f9;
+  padding:10px;
+  text-align:center;
+}
+
+.table4 tr:nth-child(even){
+  background:#eee;
+}

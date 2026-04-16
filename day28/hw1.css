@@ -1,0 +1,41 @@
+body{
+  margin:0;
+  font-family: Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background: linear-gradient(45deg, purple, blue);
+}
+
+.container{
+  background: transparent;
+  padding:40px;
+  border-radius:20px;
+}
+
+.box{
+  background:#eee;
+  padding:30px;
+  border-radius:15px;
+  width:300px;
+  text-align:center;
+}
+
+.box input{
+  width:100%;
+  padding:10px;
+  margin:10px 0;
+  border:none;
+  border-radius:20px;
+}
+
+.box button{
+  width:100%;
+  padding:10px;
+  border:none;
+  border-radius:20px;
+  background: linear-gradient(45deg, purple, blue);
+  color:white;
+  cursor:pointer;
+}

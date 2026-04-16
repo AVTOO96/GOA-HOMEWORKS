@@ -1,0 +1,22 @@
+body{
+  background:#111;
+  font-family: Arial;
+}
+
+.table2{
+  width:90%;
+  margin:40px auto;
+  border-radius:15px;
+  overflow:hidden;
+  color:white;
+  background: linear-gradient(45deg, #6a11cb, #2575fc);
+}
+
+.table2 th, .table2 td{
+  padding:12px;
+  text-align:center;
+}
+
+.table2 tr:nth-child(even){
+  background: rgba(255,255,255,0.1);
+}

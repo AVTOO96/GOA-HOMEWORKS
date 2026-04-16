@@ -1,0 +1,28 @@
+body{
+  background:#111;
+  font-family: Arial;
+}
+
+.table1{
+  width:80%;
+  margin:40px auto;
+  border-radius:15px;
+  overflow:hidden;
+  border-collapse: separate;
+}
+
+.table1 th{
+  background:#6bbf59;
+  color:white;
+  padding:15px;
+}
+
+.table1 td{
+  background:#f5f5f5;
+  padding:12px;
+  text-align:center;
+}
+
+.table1 tr:nth-child(even) td{
+  background:#e8f5e9;
+}

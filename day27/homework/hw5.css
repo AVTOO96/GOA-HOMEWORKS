@@ -1,0 +1,24 @@
+
+.list1{
+  list-style: disc;
+}
+
+
+.list2{
+  list-style: circle;
+}
+
+
+.list3{
+  list-style: square;
+}
+
+
+.list4{
+  list-style: none;
+}
+
+
+.list5{
+  list-style: decimal;
+}
