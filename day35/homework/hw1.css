@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  background: lightblue;
+  transition: 0.3s;
+}
+
+.box1:hover { transform: scale(1.5); background: red; }
+.box2:hover { transform: rotate(45deg); background: blue; }
+.box3:hover { transform: translate(40px, 20px); background: green; }
+.box4:hover { transform: skew(20deg); background: orange; }
+.box5:hover { transform: scale(1.2) rotate(20deg); background: purple; }

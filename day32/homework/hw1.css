@@ -1,0 +1,43 @@
+/* position - განსაზღვრავს როგორ იმოძრავებს ან განლაგდება ელემენტი გვერდზე */
+
+/* 1. static (default მნიშვნელობა)
+   - ეს არის ნაგულისხმევი მდგომარეობა
+   - ელემენტი დგას ჩვეულებრივ ნაკადში (flow)
+   - top, left, right, bottom არ მუშაობს */
+.element1 {
+  position: static;
+}
+
+/* 2. relative
+   - ელემენტი რჩება თავის “ჩვეულ ადგილას”, მაგრამ შეგვიძლია გადავაადგილოთ
+   - top/left/right/bottom მუშაობს მისი ORIGINAL პოზიციიდან */
+.element2 {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+/* 3. absolute
+   - ელემენტი მთლიანად ამოდის ჩვეულებრივი flow-დან
+   - პოზიციონირდება უახლოეს "relative/absolute/fixed" მშობელთან
+   - თუ მშობელი არ აქვს → body-ს ებმება */
+.element3 {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+/* 4. fixed
+   - ელემენტი ფიქსირდება ეკრანზე
+   - scroll-ის დროსაც არ მოძრაობს
+   - ყოველთვის ჩანს ერთ ადგილას */
+.element4 {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* 5. sticky
+   - იწყებს როგორც relative
+   - scroll-ის დროს "ეკრობა" (stick) მითითებულ ადგილას
+   - ხშირად გამოიყენება navbar-ებზე */

@@ -9,7 +9,7 @@ result = txt.lower()
 print(result)
 
 tx = "PYthON Is aweSOME"
-resu = tx.capitalize()
+resu= tx.capitalize()
 
 print(resu)
 

@@ -1,0 +1,14 @@
+div {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+  display: inline-block;
+  background: lightgray;
+  transition: 0.4s;
+}
+
+.t1:hover { transform: scale(1.3); background: red; }
+.t2:hover { transform: rotate(45deg); background: blue; }
+.t3:hover { transform: translate(40px, 20px); background: green; }
+.t4:hover { transform: skew(15deg); background: orange; }
+.t5:hover { transform: scale(1.2) rotate(20deg); background: purple; }

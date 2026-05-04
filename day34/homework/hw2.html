@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        /* 1. Hover scale (გაზრდა) */
+.box1 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transition: 0.3s;
+}
+.box1:hover {
+  transform: scale(1.5);
+}
+
+/* 2. Rotate (ბრუნვა) */
+.box2 {
+  width: 100px;
+  height: 100px;
+  background: blue;
+  transition: 0.5s;
+}
+.box2:hover {
+  transform: rotate(45deg);
+}
+
+/* 3. Move (გადატანა) */
+.box3 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: 0.5s;
+}
+.box3:hover {
+  transform: translate(50px, 20px);
+}
+
+/* 4. Skew (დახრა) */
+.box4 {
+  width: 100px;
+  height: 100px;
+  background: orange;
+  transition: 0.5s;
+}
+.box4:hover {
+  transform: skew(20deg, 10deg);
+}
+
+/* 5. Combined effect */
+.box5 {
+  width: 100px;
+  height: 100px;
+  background: purple;
+  transition: 0.5s;
+}
+.box5:hover {
+  transform: scale(1.2) rotate(20deg) translate(30px, 10px);
+}
+
+div {
+  margin: 20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="box1"></div>
+<div class="box2"></div>
+<div class="box3"></div>
+<div class="box4"></div>
+<div class="box5"></div>
+
+    </style>
+</body>
+</html>

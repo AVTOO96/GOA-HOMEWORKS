@@ -1,0 +1,30 @@
+.box {
+  width: 80px;
+  height: 80px;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 80px; 
+
+  position: relative;
+
+  animation: moveBox 2s infinite alternate;
+}
+
+/* KEYFRAME */
+@keyframes moveBox {
+  0% {
+    transform: translateX(0) rotate(0deg);
+    background: orange;
+  }
+  50% {
+    transform: translateX(50px) rotate(15deg);
+    background: gold;
+  }
+  100% {
+    transform: translateX(calc(185vh - 80px));
+    background: darkorange;
+  }
+}

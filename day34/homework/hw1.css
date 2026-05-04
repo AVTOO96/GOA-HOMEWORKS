@@ -1,0 +1,21 @@
+div {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  background: lightblue;
+  display: inline-block;
+  text-align: center;
+  line-height: 80px;
+  transition: 0.3s;
+}
+
+/* scale */
+.ex1:hover { transform: scale(1.3); }
+.ex2:hover { transform: scale(0.6); }
+.ex3:hover { transform: scale(2); }
+
+/* rotate */
+.ex4:hover { transform: rotate(45deg); }
+
+/* translate */
+.ex5:hover { transform: translate(30px, 20px); }

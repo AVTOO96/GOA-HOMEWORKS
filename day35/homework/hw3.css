@@ -1,0 +1,46 @@
+/* ===== ელემენტის სტილი ===== */
+.box {
+  width: 120px;
+  height: 120px;
+  background: royalblue;
+  margin: 100px auto;
+  transition: all 0.5s ease 0.2s;
+}
+
+/* hover ეფექტი */
+.box:hover {
+  transform: scale(1.3);
+  background: tomato;
+}
+
+/* ============================= */
+/* ===== TRANSITION ახსნა ===== */
+/* ============================= */
+
+/*
+transition - აკეთებს გლუვ გადასვლას (animation) როცა CSS თვისება იცვლება
+
+----------------------------------
+
+transition-property:
+- განსაზღვრავს რომელი თვისება შეიცვალოს ანიმაციით
+- მაგალითად: width, height, background, all
+
+transition-duration:
+- რამდენი ხანი გრძელდება ანიმაცია
+- მაგალითად: 0.3s, 1s
+
+transition-timing-function:
+- სიჩქარის სტილი
+- ease → ნორმალური
+- linear → ერთნაირი სიჩქარე
+- ease-in → ნელა იწყება
+- ease-out → ნელა მთავრდება
+
+transition-delay:
+- რამდენი ხნის შემდეგ დაიწყოს ანიმაცია
+
+----------------------------------
+
+
+

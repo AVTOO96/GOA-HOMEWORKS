@@ -1,0 +1,38 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    min-height: 100%;
+    background: linear-gradient(135deg, #1e1e2f, #2c3e50);
+}
+
+
+.box {
+    width: 150px;
+    height: 150px;
+    border-radius: 12px;
+
+    background: linear-gradient(45deg, #3498db, #9b59b6);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    
+    transition: 3s
+}
+
+
+body:hover .box {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.box:hover {
+    transform: translate(-50%, -50%) scale(1.2) rotate(15deg);
+    background: linear-gradient(45deg, #2ecc71, #f1c40f);
+}

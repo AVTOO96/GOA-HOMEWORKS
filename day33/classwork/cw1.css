@@ -1,0 +1,35 @@
+.linear{
+    height: 200px;
+    text-align: center;
+    color:antiquewhite;
+    font-size: 28px;
+    font-family: 'Courier New', Courier, monospace;
+    background:linear-gradient(135deg,#1e3c72,#2a5298,#6dd5ed)
+
+}
+
+.radial {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+
+  margin: 50px auto; 
+
+  background: radial-gradient(circle at center, #ffcc70 0%, #c850c0 40%, #2b1055 100%);
+
+}
+
+.conic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+
+  margin: 50px auto;
+
+  background: conic-gradient(
+    #00f260 0% 40%,
+    #0575e6 40% 70%,
+    #ff512f 70% 100%
+  );
+}
+

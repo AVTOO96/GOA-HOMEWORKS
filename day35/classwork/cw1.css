@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 120px;
+    height: 120px;
+    background: linear-gradient(45deg, #ff416c, #ff4b2b);
+    border-radius: 20px;
+
+    
+    transition-property: transform, background, border-radius, box-shadow;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.box:hover {
+    transform: scale(1.3) rotate(15deg);
+    background: linear-gradient(45deg, #00c6ff, #0072ff);
+    border-radius: 50%;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
