@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Prefix Example</title>
+
+  <style>
+    .box {
+      width: 200px;
+      height: 200px;
+      background: crimson;
+      margin: 100px auto;
+
+      -webkit-transform: rotate(20deg);
+      -moz-transform: rotate(20deg);
+      -ms-transform: rotate(20deg);
+      transform: rotate(20deg);
+
+      -webkit-transition: 0.5s;
+      transition: 0.5s;
+    }
+
+    .box:hover {
+      transform: scale(1.2);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="box"></div>
+
+</body>
+</html>

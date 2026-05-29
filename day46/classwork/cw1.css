@@ -1,0 +1,132 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+  background: #111;
+  color: white;
+}
+
+/* HEADER */
+
+header{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+
+  background:
+  linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)),
+  url("e60.jpg");
+
+  background-size: cover;
+  background-position: center;
+}
+
+.hero{
+  max-width: 700px;
+}
+
+.hero h1{
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.hero span{
+  color: #00aaff;
+}
+
+.hero p{
+  font-size: 20px;
+  color: #ddd;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.btn{
+  display: inline-block;
+  padding: 14px 35px;
+  background: #00aaff;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.btn:hover{
+  background: #0088cc;
+  transform: scale(1.08);
+}
+
+/* ABOUT */
+
+.about-section{
+  padding: 80px 20px;
+}
+
+.about{
+  max-width: 1000px;
+  margin: auto;
+
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.about img{
+  width: 100%;
+  max-width: 450px;
+  border-radius: 20px;
+}
+
+.text{
+  flex: 1;
+}
+
+.text h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.text p{
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+/* FOOTER */
+
+footer{
+  background: black;
+  text-align: center;
+  padding: 25px;
+  color: #777;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 768px){
+
+  .hero h1{
+    font-size: 40px;
+  }
+
+  .hero p{
+    font-size: 17px;
+  }
+
+  .text h2{
+    font-size: 30px;
+  }
+
+  .about{
+    text-align: center;
+  }
+
+}

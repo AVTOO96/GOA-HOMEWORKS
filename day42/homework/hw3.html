@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Float And Clear</title>
+
+  <style>
+    .left-box {
+      width: 200px;
+      height: 200px;
+      background: red;
+      float: left;
+      margin-right: 20px;
+    }
+
+    .text {
+      background: lightgray;
+    }
+
+    .footer {
+      clear: both;
+      background: black;
+      color: white;
+      padding: 20px;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="left-box"></div>
+
+  <p class="text">
+    This text goes beside the floated box.
+  </p>
+
+  <div class="footer">
+    Footer with clear both
+  </div>
+
+</body>
+</html>
